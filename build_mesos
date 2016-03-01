@@ -343,6 +343,7 @@ function deb_ {
                -d 'java-runtime-headless | java2-runtime-headless | default-jre'
                -d libcurl3
                -d libevent-dev
+               -d libcurl4-nss-dev
                -d libsvn1
                -d libsasl2-modules
                --after-install "$this/$asset_dir/mesos.postinst"
